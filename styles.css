@@ -1,0 +1,54 @@
+/* Make the whole page center its content */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the main content box */
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Stylish heading */
+h1 {
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 2.5rem;
+  color: #333;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Phrase box styling */
+#phrase-box {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #333;
+  min-height: 60px;
+}
+
+/* Button styling */
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #8A9597;
+}
